@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.home {
+  text-align: center;
+  padding: 30px;
+}
+
+.tabs {
+  display: flex;
+  margin: 20px 0;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: #ffffff33;
+  color: white;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background: white;
+  color: #2a5298;
+  font-weight: bold;
+}
+
+.primary {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background: white;
+  color: #2a5298;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.screen {
+  width: 320px;
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background: #2a5298;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.card {
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.link {
+  margin-top: 15px;
+  background: none;
+  border: none;
+  color: #2a5298;
+  cursor: pointer;
+}
